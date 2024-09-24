@@ -49,4 +49,10 @@ public class login extends AppCompatActivity {
         Intent intent = new Intent(this, home.class);
         startActivity(intent);
     }
+
+    public void abrindo_esqueci(View view) {
+        // Lógica para abrir a Home Activity
+        Intent intent = new Intent(this, esquecisenha.class);
+        startActivity(intent);
+    }
 }

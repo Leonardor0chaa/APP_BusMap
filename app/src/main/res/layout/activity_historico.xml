@@ -49,7 +49,7 @@
         android:layout_height="63dp"
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Busque pelas linhas que você deseja aqui."
+        android:text="Busque pelas linhas que você deseja clicando aqui."
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="24sp"

@@ -10,19 +10,14 @@
         android:id="@+id/textView7"
         android:layout_width="314dp"
         android:layout_height="58dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginTop="10dp"
         android:text="@string/title_esquecisenha"
         android:textColor="@color/white"
         android:textSize="48sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/containerComponents2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404"
-        tools:text="Esqueci senha" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/containerComponents2"
@@ -32,14 +27,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="326dp"
         android:layout_height="92dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="16dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Foi enviado no seu email um código de verificação, por favor inserir abaixo."
         android:textAlignment="center"
@@ -57,6 +51,7 @@
         android:text="Enviar código"
         android:textColor="@color/white"
         android:textSize="20sp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="@+id/containerComponents2"
         app:layout_constraintEnd_toEndOf="@+id/containerComponents2"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
@@ -64,12 +59,11 @@
     <EditText
         android:id="@+id/editTextNumber"
         style="@style/Edit_Text"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="10dp"
         android:hint="Ex: 0000"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="@id/containerComponents2"
-        app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="@id/containerComponents2"
-        app:layout_constraintTop_toTopOf="@id/textView3" />
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
