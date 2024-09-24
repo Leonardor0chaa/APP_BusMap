@@ -29,4 +29,9 @@ public class faleconosco extends AppCompatActivity {
         Intent intent = new Intent(this, favoritos.class);
         startActivity(intent);
     }
+    public void abrindo_faleconosco(View view) {
+        // Lógica para abrir outra Activity ou qualquer outra ação
+        Intent intent = new Intent(this, faleconosco2.class);
+        startActivity(intent);
+    }
 }
