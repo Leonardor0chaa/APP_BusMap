@@ -15,7 +15,7 @@ public class cadastro extends AppCompatActivity {
     }
     public void cadastrar(View view) {
         // Lógica para abrir outra Activity ou qualquer outra ação
-        Intent intent = new Intent(this, home.class);
+        Intent intent = new Intent(this, cadastro2.class);
         startActivity(intent);
     }
 }
